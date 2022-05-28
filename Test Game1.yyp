@@ -1,12 +1,21 @@
 {
   "resources": [
+    {"id":{"name":"Sprite5","path":"sprites/Sprite5/Sprite5.yy",},"order":16,},
     {"id":{"name":"spr_background1","path":"sprites/spr_background1/spr_background1.yy",},"order":1,},
     {"id":{"name":"Sprite1","path":"sprites/Sprite1/Sprite1.yy",},"order":15,},
+    {"id":{"name":"obj_cloud","path":"objects/obj_cloud/obj_cloud.yy",},"order":3,},
+    {"id":{"name":"rm_mainmenu","path":"rooms/rm_mainmenu/rm_mainmenu.yy",},"order":1,},
     {"id":{"name":"spr_player","path":"sprites/spr_player/spr_player.yy",},"order":0,},
     {"id":{"name":"spr_wall","path":"sprites/spr_wall/spr_wall.yy",},"order":2,},
     {"id":{"name":"obj_wall","path":"objects/obj_wall/obj_wall.yy",},"order":1,},
+    {"id":{"name":"obj_background1","path":"objects/obj_background1/obj_background1.yy",},"order":2,},
+    {"id":{"name":"spr_gametitle","path":"sprites/spr_gametitle/spr_gametitle.yy",},"order":17,},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"order":0,},
-    {"id":{"name":"rm1","path":"rooms/rm1/rm1.yy",},"order":0,},
+    {"id":{"name":"spr_cloud","path":"sprites/spr_cloud/spr_cloud.yy",},"order":3,},
+    {"id":{"name":"fnt_menu","path":"fonts/fnt_menu/fnt_menu.yy",},"order":0,},
+    {"id":{"name":"obj_gametitle","path":"objects/obj_gametitle/obj_gametitle.yy",},"order":5,},
+    {"id":{"name":"obj_menu","path":"objects/obj_menu/obj_menu.yy",},"order":4,},
+    {"id":{"name":"startgame","path":"rooms/startgame/startgame.yy",},"order":0,},
   ],
   "Options": [
     {"name":"Main","path":"options/main/options_main.yy",},
@@ -20,7 +29,8 @@
     "children": [],
   },
   "RoomOrderNodes": [
-    {"roomId":{"name":"rm1","path":"rooms/rm1/rm1.yy",},},
+    {"roomId":{"name":"rm_mainmenu","path":"rooms/rm_mainmenu/rm_mainmenu.yy",},},
+    {"roomId":{"name":"startgame","path":"rooms/startgame/startgame.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
